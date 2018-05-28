@@ -1,0 +1,1 @@
+from .nicemessages import NiceMessages
