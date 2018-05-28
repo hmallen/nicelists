@@ -14,7 +14,7 @@ logger.setLevel(logging.DEBUG)
 
 config_path = '../config/config.ini'
 
-cmc_json_file = 'test_cmc_data.json'
+cmc_json_file = 'resources/test_cmc_data.json'
 
 
 def send_slack_alert(channel_id, message):

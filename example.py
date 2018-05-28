@@ -12,7 +12,7 @@ logger.setLevel(logging.DEBUG)
 
 config_path = '../config/config.ini'
 
-cmc_json_file = 'test_cmc_data.json'
+cmc_json_file = 'resources/test_cmc_data.json'
 
 
 if __name__ == '__main__':
@@ -36,7 +36,7 @@ if __name__ == '__main__':
         print('Nice Lists:')
         print(cmc_message_nice)
         print(type(cmc_message_nice))
-    
+
     except Exception as e:
         logger.exception('Exception in main loop.')
         logger.exception(e)
