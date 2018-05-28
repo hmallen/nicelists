@@ -1,6 +1,6 @@
 # nicemessages
 
-I needed to parse some json messages from the Coinmarketcap API and turn them into a nice output for Slack messages. While fairly project-specific at the moment, I do hope to turn it into a more useful set of tools eventually.
+I needed to parse some json messages from the Coinmarketcap API via pymarketcap (https://github.com/mondeja/pymarketcap) and turn them into a nice output for Slack messages. While this is basically project-specific at the moment, I do hope to turn it into a more useful set of tools eventually.
 
 <b>Usage:</b>
 
