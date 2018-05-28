@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: nicemessages
-Version: 0.1a0
+Version: 0.1.dev0
 Summary: Parses Pymarketcap json (limited to this for now) and                   outputs formatted list of data for chat messages.
 Home-page: https://github.com/hmallen/nicemessages
 Author: Hunter M. Allen
