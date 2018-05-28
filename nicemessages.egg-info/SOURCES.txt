@@ -1,0 +1,8 @@
+README.md
+setup.py
+nicemessages/__init__.py
+nicemessages/nicemessages.py
+nicemessages.egg-info/PKG-INFO
+nicemessages.egg-info/SOURCES.txt
+nicemessages.egg-info/dependency_links.txt
+nicemessages.egg-info/top_level.txt
