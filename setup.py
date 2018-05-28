@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setup(
     name='nicemessages',
-    version='0.1.dev',
+    version='0.1.dev1',
     author='Hunter M. Allen',
     author_email='allenhm@gmail.com',
     license='MIT',

@@ -26,33 +26,45 @@ class NiceMessages:
             cmc_message += '*Websites:*' + '\n'
 
             for site in cmc_data['webs']:
-                cmc_message += '    - ' + site + '\n'
+                #if '\n' in site:
+                    #logger.error('SITE')
+                    #sys.exit(1)
+
+                if site != '':
+                    cmc_message += '    ' + site + '\n'
 
         if len(cmc_data['message_boards']) > 0:
             cmc_message += '*Message Boards:*' + '\n'
 
             for board in cmc_data['message_boards']:
-                #board = board.rstrip('\n')
+                #if '\n' in board:
+                    #logger.error('BOARD')
+                    #sys.exit(1)
 
-                cmc_message += '    - ' + board + '\n'
+                if board != '':
+                    cmc_message += '    ' + board + '\n'
 
         if len(cmc_data['chats']) > 0:
             cmc_message += '*Chats:*' + '\n'
 
             for chat in cmc_data['chats']:
-                #chat = chat.rstrip('\n')
+                #if '\n' in chat:
+                    #logger.error('CHAT')
+                    #sys.exit(1)
 
-                cmc_message += '    - ' + chat + '\n'
+                if chat != '':
+                    cmc_message += '    ' + chat + '\n'
 
         if len(cmc_data['explorers']) > 0:
             cmc_message += '*Explorers:*' + '\n'
 
-            logger.debug('len(cmc_data[\'explorers\']): ' + str(len(cmc_data['explorers'])))
-
             for explorer in cmc_data['explorers']:
-                #explorer = explorer.rstrip('\n')
+                #if '\n' in explorer:
+                    #logger.error('EXPLORER')
+                    #sys.exit(1)
 
-                cmc_message += '    - ' + explorer + '\n'
+                if explorer != '':
+                    cmc_message += '    ' + explorer + '\n'
 
         return cmc_message
 

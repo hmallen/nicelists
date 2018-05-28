@@ -16,7 +16,7 @@ cmc_json_file = 'resources/test_cmc_data.json'
 
 
 if __name__ == '__main__':
-    nice_lists = NiceLists()
+    nice_messages = NiceMessages()
 
     ## MAIN LOOP ##
     try:
@@ -29,11 +29,11 @@ if __name__ == '__main__':
         pprint(cmc_data)
         print()
 
-        cmc_message = nice_lists.cmc_to_rows(cmc_data)
+        cmc_message = nice_messages.cmc_to_rows(cmc_data)
 
-        cmc_message_nice = nice_lists.even_columns(cmc_message)
+        cmc_message_nice = nice_messages.even_columns(cmc_message)
 
-        print('Nice Lists:')
+        print('Nice Message:')
         print(cmc_message_nice)
         print(type(cmc_message_nice))
 

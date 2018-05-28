@@ -15,7 +15,7 @@ currency_data = cmc.currency('ZIL')
 formatted_rows = nm.cmc_to_rows(currency_data)
 even_columns = nm.even_columns(formatted_rows)
 
-""" 
+"""
 ## Example Output ##
 
 # formatted_rows #
@@ -26,12 +26,12 @@ even_columns = nm.even_columns(formatted_rows)
 *Price:* 0.118244
 *Source Code:* https://github.com/Zilliqa/Zilliqa
 *Websites:*
-    - https://www.zilliqa.com/
+    https://www.zilliqa.com/
 *Chats:*
-    - https://t.me/zilliqachat
+    https://t.me/zilliqachat
 *Explorers:*
-    - https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
-    - https://ethplorer.io/address/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
+    https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
+    https://ethplorer.io/address/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 
 # even_rows #
 *Name:*        Zilliqa
@@ -41,11 +41,11 @@ even_columns = nm.even_columns(formatted_rows)
 *Price:*       0.118244
 *Source Code:* https://github.com/Zilliqa/Zilliqa
 *Websites:*
-    - https://www.zilliqa.com/
+    https://www.zilliqa.com/
 *Chats:*
-    - https://t.me/zilliqachat
+    https://t.me/zilliqachat
 *Explorers:*
-    - https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
-    - https://ethplorer.io/address/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
+    https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
+    https://ethplorer.io/address/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 """
 ```
