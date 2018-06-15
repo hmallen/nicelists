@@ -20,7 +20,8 @@ class NiceMessages:
         cmc_message += '*Rank:* #' + str(cmc_data['rank']) + '\n'
         cmc_message += '*24h Volume:* ' + str(cmc_data['markets_volume_24h']) + '\n'
         cmc_message += '*Price:* ' + str(cmc_data['price']) + '\n'
-        cmc_message += '*Source Code:* ' + cmc_data['source_code'] + '\n'
+        if cmc_data['source_code'] != None:
+            cmc_message += '*Source Code:* ' + cmc_data['source_code'] + '\n'
 
         if len(cmc_data['webs']) > 0:
             cmc_message += '*Websites:*' + '\n'
